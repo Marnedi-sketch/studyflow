@@ -1,3 +1,12 @@
+## StudyFlow
+
+A study-planning dashboard for organizing tasks
+and managing study sessions.
+
+**Live Demo:** https://studyflow-hmng.vercel.app/
+
+**Source Code:** https://github.com/Marnedi-sketch/studyflow
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
