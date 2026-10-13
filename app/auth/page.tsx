@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from "react";
@@ -36,7 +35,7 @@ export default function AuthPage() {
         if (authError) throw authError;
 
         if (data.session) {
-          router.replace("/");
+          router.replace("/dashboard");
           router.refresh();
         } else {
           setMessage(
@@ -52,7 +51,7 @@ export default function AuthPage() {
 
         if (authError) throw authError;
 
-        router.replace("/");
+        router.replace("/dashboard");
         router.refresh();
       }
     } catch (err) {
@@ -269,12 +268,7 @@ export default function AuthPage() {
             </button>
           </p>
 
-          <a
-            href="/"
-            className="mt-6 text-center text-sm text-slate-500 hover:text-indigo-600"
-          >
-            ← Back to dashboard
-          </a>
+        
         </section>
       </div>
     </main>
